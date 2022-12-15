@@ -1,0 +1,96 @@
+/*  =======
+    CONTACT
+    ======= */
+
+#contact-container{
+    background-color: #5B5D90;
+}
+
+#contact-container div:first-child{
+    align-items: center;
+}
+
+
+#contact.content-container{
+    justify-content: flex-start;
+    align-items: center;
+    color: white;
+}
+
+.content-container .text {
+    max-width: 75%;
+    margin: 0 auto;
+    text-align: justify;
+    color: white;
+}
+
+.content-container h2{
+    font-size: 2.5em;
+
+}
+
+.content-container .contact-infos{
+    background-color: #23212F;
+    margin: 75px auto;
+    width: 75%;
+    height: 75%;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.contact-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+}
+
+.contact-content a{
+    color: white;
+}
+
+.contact-content a:hover{
+    color: #369cb1;
+    transition: 0.5s;
+}
+
+.contact-icon{
+    display: block;
+    height: 50px;
+    width: 50px;
+    margin-left: 25px;
+    object-fit: cover;
+}
+
+.contact-icon:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.contact-text{
+    font-weight: 600;
+}
+
+.contact-text a{
+    color: white;
+}
+
+.contact-text a:hover{
+    color: #954649;
+    transition: 0.5s;
+}
+
+#hidden{
+    visibility: hidden;
+}
+
+#github{
+    margin-top: 25px;
+    filter: invert();
+}
+    
+#sikara{
+    filter: invert();
+}

@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Press+Start+2P&family=Source+Sans+Pro&display=swap');
+
+/* ========
+    GENERAL
+    ======= */
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    width: 100%;
+    background-color: rgb(32, 32, 32);
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+ul{
+    margin: 5px;
+    display: flex;
+}
+
+li{
+    list-style-type: none;
+    padding: 0 15px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+.button a{
+    color: white;
+    padding: 10px 15px;
+    background-color: #7E58ED;
+}
+
+.button a:hover{
+    background-color: #954649;
+    transition: 0.5s;
+}
+
+/*  ================
+    BIG SPACER (WIP)
+    ================ */
+
+.container#spacer-img{
+    background-image: url(../media/bg_evangelion_red.jpg);
+    background-position: bottom right;
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: flex-end;
+}
+
+.content-container h2{
+    color: white;
+    text-align: center;
+    font-size: 4em;
+}
+
+/*  =============
+    MEDIA QUERIES
+    ============= */
+
+@media screen and (max-width:950px){
+    .button{
+        display: none;
+    }
+}
+
+@media screen and (max-width:650px){
+    #about-content{
+        flex-direction: column;
+    }
+    .content-container{
+        min-width: 100%;
+    }
+    .container2{
+        margin: 0 auto;
+    }
+    .contact-infos{
+        min-width: 100%;
+        padding: 30px;
+    }
+}
+
+@media screen and (max-width:475px){
+    .navbar{
+        margin: 0 auto;
+        padding-right: 30px;
+    }
+    .navbar ul{
+        margin: 0;
+    }
+    .stack{
+        width: 75%;
+        margin: 0 auto;
+    }
+    #line1{
+        margin-left: 25px;
+    }
+    #line3{
+        margin-left: 25px;
+    }
+    #spacers{
+        margin-left: 25px;
+    }
+}
